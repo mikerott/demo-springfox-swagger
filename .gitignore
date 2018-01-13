@@ -1,0 +1,44 @@
+#---------------------------
+# Maven
+#---------------------------
+target/
+.factorypath
+
+#---------------------------
+# Intelij
+#---------------------------
+*.iml
+.classpath
+.project
+.settings/**
+.idea/
+**/.idea/*
+!.idea/copyright
+
+#---------------------------
+# Eclipse
+#---------------------------
+.metadata
+.settings
+.recommenders/
+
+#---------------------------
+# OSX
+#---------------------------
+.DS_Store
+clientdb.xml
+
+#---------------------------
+# Windows
+#---------------------------
+Thumbs.db
+
+#---------------------------
+# Editor byproducts (Vim)
+#---------------------------
+*.swp
+*.swo
+*.orig
+
+# People might want a manifest.yml of their own
+manifest.yml
